@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Muhammad Anees — Flutter &amp; Mobile App Developer</title>
+	<meta name="description" content="Muhammad Anees — Flutter &amp; Mobile App Developer and Software Engineering student building beautiful cross-platform apps with Flutter, Dart, and a Node.js backend." />
+	<meta name="author" content="Muhammad Anees" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Muhammad Anees — Flutter &amp; Mobile App Developer" />
+	<meta property="og:description" content="Final-year Software Engineering student crafting polished, cross-platform mobile apps with Flutter and full-stack features." />
+	<meta property="og:type" content="website" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<!-- Custom cursor -->
+	<div class="cursor-dot" data-cursor-dot></div>
+	<div class="cursor-ring" data-cursor-ring></div>
+
+	<!-- Scroll progress bar -->
+	<div class="scroll-progress" data-scroll-progress></div>
+
+	<!-- Preloader -->
+	<div class="preloader" data-preloader>
+		<div class="preloader__inner">
+			<span class="preloader__logo">MA</span>
+			<span class="preloader__count" data-preloader-count>0</span>
+		</div>
+	</div>
+
+	<!-- Animated background -->
+	<div class="bg-grid" aria-hidden="true"></div>
+	<div class="bg-blob bg-blob--1" aria-hidden="true"></div>
+	<div class="bg-blob bg-blob--2" aria-hidden="true"></div>
+
+	<!-- Navbar -->
+	<header class="nav" data-nav>
+		<a href="#home" class="nav__logo" data-magnetic>
+			<span class="nav__logo-mark">MA</span>
+			<span class="nav__logo-text">Anees<span class="accent">.dev</span></span>
+		</a>
+		<nav class="nav__links" data-nav-links>
+			<a href="#home" class="nav__link">Home</a>
+			<a href="#about" class="nav__link">About</a>
+			<a href="#skills" class="nav__link">Skills</a>
+			<a href="#projects" class="nav__link">Projects</a>
+			<a href="#journey" class="nav__link">Journey</a>
+			<a href="#contact" class="nav__link nav__link--cta">Contact</a>
+		</nav>
+		<button class="nav__toggle" data-nav-toggle aria-label="Toggle menu">
+			<span></span><span></span><span></span>
+		</button>
+	</header>
+
+	<main>
+		<!-- HERO -->
+		<section class="hero" id="home">
+			<div class="hero__inner">
+				<p class="hero__eyebrow reveal">
+					<span class="status-dot"></span> Available for internships &amp; freelance
+				</p>
+				<h1 class="hero__title">
+					<span class="reveal" style="--d:0.05s">Hi, I'm Muhammad</span>
+					<span class="reveal hero__title-accent" style="--d:0.15s">Anees</span>
+				</h1>
+				<h2 class="hero__roles reveal" style="--d:0.25s">
+					I build
+					<span class="typewriter" data-typewriter
+						data-words="beautiful Flutter apps.|cross-platform mobile apps.|full-stack products.|smooth user experiences."></span>
+				</h2>
+				<p class="hero__desc reveal" style="--d:0.35s">
+					Final-year Software Engineering student at COMSATS University Islamabad. I craft
+					polished cross-platform apps with <strong>Flutter &amp; Dart</strong>, backed by
+					<strong>Node.js, Express &amp; MongoDB</strong> — with a growing focus on AI-powered features.
+				</p>
+				<div class="hero__cta reveal" style="--d:0.45s">
+					<a href="#projects" class="btn btn--primary" data-magnetic>
+						View My Work <span class="btn__arrow">&#8594;</span>
+					</a>
+					<a href="#contact" class="btn btn--ghost" data-magnetic>Get in Touch</a>
+				</div>
+				<div class="hero__socials reveal" style="--d:0.55s">
+					<a href="https://github.com/Anees040" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+					<a href="https://www.linkedin.com/in/muhammad-anees-336a0b402" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+					<a href="https://www.instagram.com/m.anees_511" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+				</div>
+			</div>
+
+			<div class="hero__visual reveal" style="--d:0.4s">
+				<div class="phone" data-tilt>
+					<div class="phone__notch"></div>
+					<div class="phone__screen">
+						<div class="app">
+							<div class="app__bar">
+								<span class="app__title">SportLynk</span>
+								<span class="app__avatar">A</span>
+							</div>
+							<div class="app__hero">Book indoor courts near you</div>
+							<div class="app__chips">
+								<span>Futsal</span><span>Cricket</span><span>Padel</span>
+							</div>
+							<div class="app__card">
+								<div class="app__thumb"></div>
+								<div class="app__meta">
+									<b>Arena One</b><small>4.9 &#9733; · 2.1 km</small>
+								</div>
+								<span class="app__book">Book</span>
+							</div>
+							<div class="app__card">
+								<div class="app__thumb app__thumb--2"></div>
+								<div class="app__meta">
+									<b>Smash Padel</b><small>4.8 &#9733; · 3.4 km</small>
+								</div>
+								<span class="app__book">Book</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero__badge hero__badge--flutter" data-float>Flutter</div>
+				<div class="hero__badge hero__badge--dart" data-float>Dart</div>
+				<div class="hero__badge hero__badge--node" data-float>Node.js</div>
+			</div>
+
+			<a href="#about" class="hero__scroll" aria-label="Scroll down">
+				<span class="hero__scroll-text">Scroll</span>
+				<span class="hero__scroll-line"></span>
+			</a>
+		</section>
+
+		<!-- Marquee -->
+		<div class="marquee" aria-hidden="true">
+			<div class="marquee__track">
+				<span>Flutter</span><span>&#9679;</span><span>Dart</span><span>&#9679;</span><span>Firebase</span><span>&#9679;</span><span>Node.js</span><span>&#9679;</span><span>Express</span><span>&#9679;</span><span>MongoDB</span><span>&#9679;</span><span>REST APIs</span><span>&#9679;</span><span>Git</span><span>&#9679;</span>
+				<span>Flutter</span><span>&#9679;</span><span>Dart</span><span>&#9679;</span><span>Firebase</span><span>&#9679;</span><span>Node.js</span><span>&#9679;</span><span>Express</span><span>&#9679;</span><span>MongoDB</span><span>&#9679;</span><span>REST APIs</span><span>&#9679;</span><span>Git</span><span>&#9679;</span>
+			</div>
+		</div>
+
+		<!-- ABOUT -->
+		<section class="section about" id="about">
+			<div class="section__head reveal">
+				<span class="section__num">01</span>
+				<h2 class="section__title">About Me</h2>
+			</div>
+			<div class="about__grid">
+				<div class="about__text reveal">
+					<p>
+						I'm <strong>Muhammad Anees</strong>, a final-year Software Engineering student at
+						<strong>COMSATS University Islamabad</strong> (graduating Dec 2026). I fell in love with
+						mobile development the moment I shipped my first Flutter screen — and I've been
+						building ever since.
+					</p>
+					<p>
+						I specialise in <strong>Flutter &amp; Dart</strong> for beautiful cross-platform apps, and
+						I build my backends with <strong>Node.js, Express &amp; MongoDB</strong>. Right now I'm
+						deep into my final-year project <strong>SportLynk</strong> and leveling up my skills in
+						AI-powered app features.
+					</p>
+					<p>
+						Beyond code, I founded <strong>Primify</strong>, my own Shopify store — so I understand
+						products, users, and shipping something real, not just writing code.
+					</p>
+					<div class="about__facts">
+						<div><span>&#128205;</span> Islamabad, Pakistan</div>
+						<div><span>&#127891;</span> BS Software Engineering</div>
+						<div><span>&#128241;</span> Flutter Developer</div>
+						<div><span>&#9889;</span> Open to opportunities</div>
+					</div>
+				</div>
+				<div class="about__side reveal" style="--d:0.15s">
+					<div class="about__portrait">
+						<span class="about__portrait-initials">MA</span>
+						<div class="about__portrait-ring"></div>
+					</div>
+					<div class="stats">
+						<div class="stat"><b data-count="6">0</b><span>Projects built</span></div>
+						<div class="stat"><b data-count="3">0</b><span>Years coding</span></div>
+						<div class="stat"><b data-count="100" data-suffix="%">0</b><span>Dedication</span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SKILLS -->
+		<section class="section skills" id="skills">
+			<div class="section__head reveal">
+				<span class="section__num">02</span>
+				<h2 class="section__title">Skills &amp; Tools</h2>
+			</div>
+			<div class="skills__grid">
+				<article class="skill-card reveal">
+					<div class="skill-card__icon">&#128241;</div>
+					<h3>Mobile Development</h3>
+					<ul class="tags">
+						<li>Flutter</li><li>Dart</li><li>Provider / State Mgmt</li><li>Material UI</li><li>Responsive UI</li>
+					</ul>
+				</article>
+				<article class="skill-card reveal" style="--d:0.1s">
+					<div class="skill-card__icon">&#128421;</div>
+					<h3>Backend &amp; Data</h3>
+					<ul class="tags">
+						<li>Node.js</li><li>Express</li><li>MongoDB</li><li>REST APIs</li><li>Firebase</li>
+					</ul>
+				</article>
+				<article class="skill-card reveal" style="--d:0.2s">
+					<div class="skill-card__icon">&#127760;</div>
+					<h3>Languages &amp; Web</h3>
+					<ul class="tags">
+						<li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>C++</li><li>SQL</li>
+					</ul>
+				</article>
+				<article class="skill-card reveal" style="--d:0.3s">
+					<div class="skill-card__icon">&#128736;</div>
+					<h3>Tools &amp; Workflow</h3>
+					<ul class="tags">
+						<li>Git &amp; GitHub</li><li>VS Code</li><li>Android Studio</li><li>Figma</li><li>Postman</li>
+					</ul>
+				</article>
+				<article class="skill-card reveal" style="--d:0.4s">
+					<div class="skill-card__icon">&#129302;</div>
+					<h3>Currently Learning</h3>
+					<ul class="tags">
+						<li>AI Integration</li><li>LLM APIs</li><li>RAG</li><li>Clean Architecture</li>
+					</ul>
+				</article>
+				<article class="skill-card reveal" style="--d:0.5s">
+					<div class="skill-card__icon">&#128188;</div>
+					<h3>Beyond Code</h3>
+					<ul class="tags">
+						<li>E-commerce (Shopify)</li><li>Product Thinking</li><li>Problem Solving</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+		<!-- PROJECTS -->
+		<section class="section projects" id="projects">
+			<div class="section__head reveal">
+				<span class="section__num">03</span>
+				<h2 class="section__title">Selected Projects</h2>
+			</div>
+
+			<article class="project reveal">
+				<div class="project__info">
+					<span class="project__index">01 — Final Year Project</span>
+					<h3 class="project__name">SportLynk</h3>
+					<p class="project__desc">
+						An indoor sports venue booking platform. Players discover and book courts,
+						join tournaments, and manage schedules; venue owners handle bookings,
+						tournaments and loss-cover tools — with AI chat assistance built in.
+					</p>
+					<ul class="tags tags--tech">
+						<li>Flutter</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>AI Chatbot</li>
+					</ul>
+					<div class="project__links">
+						<a href="https://github.com/Anees040" target="_blank" rel="noopener" data-magnetic>Code &#8599;</a>
+						<span class="project__status">In Development</span>
+					</div>
+				</div>
+				<div class="project__art project__art--sportlynk">
+					<span>SportLynk</span>
+				</div>
+			</article>
+
+			<article class="project project--reverse reveal">
+				<div class="project__info">
+					<span class="project__index">02 — Learning Platform</span>
+					<h3 class="project__name">EduVerse</h3>
+					<p class="project__desc">
+						A learning management app that brings courses, lessons and progress tracking
+						into one clean mobile experience, powered by Firebase for real-time data and auth.
+					</p>
+					<ul class="tags tags--tech">
+						<li>Flutter</li><li>Firebase</li><li>Dart</li><li>Auth</li>
+					</ul>
+					<div class="project__links">
+						<a href="https://github.com/Anees040" target="_blank" rel="noopener" data-magnetic>Code &#8599;</a>
+					</div>
+				</div>
+				<div class="project__art project__art--eduverse">
+					<span>EduVerse</span>
+				</div>
+			</article>
+
+			<article class="project reveal">
+				<div class="project__info">
+					<span class="project__index">03 — API Integration</span>
+					<h3 class="project__name">Weather Forecast PK</h3>
+					<p class="project__desc">
+						A clean weather app delivering real-time forecasts for cities across Pakistan,
+						consuming the OpenWeatherMap API with a smooth, responsive Flutter UI.
+					</p>
+					<ul class="tags tags--tech">
+						<li>Flutter</li><li>Dart</li><li>OpenWeatherMap API</li>
+					</ul>
+					<div class="project__links">
+						<a href="https://github.com/Anees040/weather-forecast-pk" target="_blank" rel="noopener" data-magnetic>Code &#8599;</a>
+					</div>
+				</div>
+				<div class="project__art project__art--weather">
+					<span>Weather PK</span>
+				</div>
+			</article>
+
+			<h3 class="projects__upcoming-title reveal">Coming this summer &#128640;</h3>
+			<div class="projects__upcoming">
+				<article class="mini-project reveal">
+					<span class="mini-project__badge">Planned</span>
+					<h4>HealthLens</h4>
+					<p>Snap a lab report &#8594; AI explains it in simple language, flags abnormal values, and answers follow-ups via a RAG chatbot.</p>
+					<ul class="tags tags--tech"><li>Flutter</li><li>Node</li><li>OCR</li><li>LLM + RAG</li></ul>
+				</article>
+				<article class="mini-project reveal" style="--d:0.12s">
+					<span class="mini-project__badge">Planned</span>
+					<h4>PrepPal</h4>
+					<p>An AI voice interview coach — answer out loud and get scored on your content and English fluency, with a progress dashboard.</p>
+					<ul class="tags tags--tech"><li>Flutter</li><li>Whisper</li><li>GPT</li><li>Express</li></ul>
+				</article>
+			</div>
+		</section>
+
+		<!-- JOURNEY -->
+		<section class="section journey" id="journey">
+			<div class="section__head reveal">
+				<span class="section__num">04</span>
+				<h2 class="section__title">My Journey</h2>
+			</div>
+			<div class="timeline">
+				<div class="timeline__item reveal">
+					<div class="timeline__dot"></div>
+					<span class="timeline__date">2023 — 2026</span>
+					<h3>BS Software Engineering</h3>
+					<p>COMSATS University Islamabad · CGPA 3.23 / 4.0. Building strong CS foundations while shipping real apps on the side.</p>
+				</div>
+				<div class="timeline__item reveal">
+					<div class="timeline__dot"></div>
+					<span class="timeline__date">2024 — Present</span>
+					<h3>Flutter Developer (Self-taught &amp; Projects)</h3>
+					<p>Designed and built cross-platform apps — EduVerse, Weather Forecast PK, and more — turning ideas into polished mobile experiences.</p>
+				</div>
+				<div class="timeline__item reveal">
+					<div class="timeline__dot"></div>
+					<span class="timeline__date">2024 — Present</span>
+					<h3>Founder — Primify (Shopify Store)</h3>
+					<p>Launched and run my own e-commerce store, learning products, marketing, and how to ship things people actually use.</p>
+				</div>
+				<div class="timeline__item reveal">
+					<div class="timeline__dot"></div>
+					<span class="timeline__date">2025 — 2026</span>
+					<h3>Final Year Project — SportLynk</h3>
+					<p>Leading the full-stack build of an indoor sports booking platform with Flutter, a Node/Express/MongoDB backend, and AI features.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACT -->
+		<section class="section contact" id="contact">
+			<div class="contact__inner reveal">
+				<span class="section__num">05</span>
+				<h2 class="contact__title">Let's build something<br /><span class="accent">great together.</span></h2>
+				<p class="contact__desc">
+					I'm actively looking for a Flutter / mobile development internship or role.
+					Have an opportunity or an idea? My inbox is always open.
+				</p>
+				<a href="mailto:muhammadanees0511@gmail.com" class="contact__email" data-magnetic>muhammadanees0511@gmail.com</a>
+				<div class="contact__row">
+					<a href="tel:+923105632437" data-magnetic>+92 310 5632437</a>
+					<span>·</span>
+					<a href="https://github.com/Anees040" target="_blank" rel="noopener" data-magnetic>GitHub</a>
+					<span>·</span>
+					<a href="https://www.linkedin.com/in/muhammad-anees-336a0b402" target="_blank" rel="noopener" data-magnetic>LinkedIn</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<span>&copy; <span data-year></span> Muhammad Anees. Built with care &amp; a lot of coffee &#9749;</span>
+		<a href="#home" data-magnetic>Back to top &#8593;</a>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
