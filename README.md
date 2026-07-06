@@ -1,4 +1,4 @@
-# Anees.dev — Personal Portfolio
+# Anees.dev  Personal Portfolio
 
 A fast, hand-crafted developer portfolio for **Muhammad Anees** — Flutter &amp; Mobile App Developer.
 Built with plain **HTML, CSS &amp; vanilla JavaScript** (zero build step, zero dependencies) so it loads
